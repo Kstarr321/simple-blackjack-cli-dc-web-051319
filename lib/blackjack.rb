@@ -49,10 +49,10 @@ def runner
   y = initial_round
   x = hit?(y)
   if x > 21 
-    puts "lose because #{x} was your final number"
+    puts "Your cards add up to #{x}"
     x
   else 
-    puts "you win with #{x}"
+    puts "Your cards add up to #{x}"
     x
   end
 end
