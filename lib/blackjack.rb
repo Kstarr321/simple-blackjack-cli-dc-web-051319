@@ -46,7 +46,14 @@ end
 
 def runner
   welcome
-  initial_round
-  
+  y = initial_round
+  x = hit?(y)
+  if x > 21 
+    puts "lose because #{x} was your final number"
+    x
+  else 
+    puts "you win with #{x}"
+    x
+  end
 end
     
