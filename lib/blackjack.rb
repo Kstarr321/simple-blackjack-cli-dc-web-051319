@@ -49,7 +49,7 @@ def runner
   y = initial_round
   x = hit?(y)
   if x > 21 
-    puts "Sorry you hit #{x}"
+    puts "Your cards add up to #{x}"
     x
   else 
     puts "Your cards add up to #{x}"
