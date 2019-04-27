@@ -48,7 +48,7 @@ def runner
   welcome
   y = initial_round
   x = hit?(y)
-  display_card_total
+  display_card_total(x)
   if x > 21 
     end_game(x)
   else 
